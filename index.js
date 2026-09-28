@@ -1,6 +1,6 @@
 let express=require('express');
 let app=express();
-let emproutes=require('./routes/emp_route');
+let emproutes=require('./routes/hr_route');
 
 app.use("/api/emp",emproutes);
 // localhost:3000/api/emp/register =>post
